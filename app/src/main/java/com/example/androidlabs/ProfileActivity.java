@@ -31,6 +31,13 @@ public class ProfileActivity extends AppCompatActivity {
     private void setListeners() {
         findViewById(R.id.picture)
             .setOnClickListener(v -> dispatchTakePictureIntent());
+
+        findViewById(R.id.chat)
+            .setOnClickListener(v ->
+                startActivity(
+                    new Intent(ProfileActivity.this, ChatRoomActivity.class)
+                )
+            );
     }
 
     /**

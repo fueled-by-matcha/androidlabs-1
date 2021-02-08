@@ -35,6 +35,11 @@
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:text="@string/your_picture"/>
+    <Button
+      android:id="@+id/chat"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/chat"/>
     <ImageButton
       android:id="@+id/picture"
       android:layout_width="match_parent"
